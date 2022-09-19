@@ -10,10 +10,6 @@
 #' @param ... Pass further arguments to dplyr::left_join
 #' @return merged data frame
 #' @seealso \code{\link[dplyr:join]{left_join}}
-#' @examples df1 <- tibble::tibble(a = 1:2)
-#' df2 <- tibble::tibble(a = 2:3,
-#'                       b = 1:2)
-#' strict_left_join(df1, df2, by = "a")
 #' @export
 strict_left_join <- function(x, y, by = NULL, ...) {
   by <- dplyr::common_by(by, x, y)

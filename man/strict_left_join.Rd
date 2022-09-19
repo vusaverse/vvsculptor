@@ -23,12 +23,6 @@ A wrapper around dplyr's left_join, with an error message if there
 duplicate values are in the matching fields in y. This will double
 of rows. See dplyr::left_join .
 }
-\examples{
-df1 <- tibble::tibble(a = 1:2)
-df2 <- tibble::tibble(a = 2:3,
-                      b = 1:2)
-strict_left_join(df1, df2, by = "a")
-}
 \seealso{
 \code{\link[dplyr:join]{left_join}}
 }
