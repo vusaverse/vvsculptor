@@ -1,9 +1,9 @@
 Package: vvsculptor
-Title: Apply Manipulations To Data Frames
-Version: 0.4.7.9000
+Title: Apply Manipulations to Data Frames
+Version: 0.4.8
 Authors@R: person("Tomer", "Iwan", , "t.iwan@vu.nl", role = c("aut", "cre", "cph"))
-Description: This package applies manipulations on data frames based on business rules.
-    Futhermore, wrapper functions are created for common tidyverse functions.
+Description: Contains function which apply manipulations on data frames based on business rules.
+    Furthermore, wrapper functions are created for common `tidyverse` functions.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
