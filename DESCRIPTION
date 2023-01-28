@@ -1,6 +1,6 @@
 Package: vvsculptor
 Title: Apply Manipulations to Data Frames
-Version: 0.4.10
+Version: 0.4.10.9000
 Authors@R: person("Tomer", "Iwan", , "t.iwan@vu.nl", role = c("aut", "cre", "cph"))
 Description: Provides a set of functions for manipulating data frames in accordance with specific business rules. 
     In addition, it includes wrapper functions for commonly used functions from the popular 'tidyverse' package, 
