@@ -5,6 +5,20 @@
 #' @param data String with level names.
 #'
 #' @return Corrected level names.
+#' @examples
+#'   data <- data.frame(id = c(1,2,3),
+#'                  name = c("Alice","Bob","Charlie"),
+#'                  gender = factor(c("Female","Male","Female"), levels = c("Female","Male")))
+#'
+#'   correct_model_levels(data)
+#'   # returns a data frame with factor levels of the variable gender corrected to "Female" and "Male"
+#'
+#'   data <- data.frame(id = c(1,2,3),
+#'                  name = c("Alice","Bob","Charlie"),
+#'                  gender = factor(c("Female","Male","Female")))
+#'   correct_model_levels(data)
+#'   # returns a data frame with factor levels of the variable gender corrected to "F" and "M"
+
 #' @export
 correct_model_levels <- function(data) {
     feature.names <- names(data)

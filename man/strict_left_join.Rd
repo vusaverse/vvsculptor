@@ -19,9 +19,15 @@ strict_left_join(x, y, by = NULL, ...)
 merged data frame
 }
 \description{
-A wrapper around dplyr's left_join, with an error message if there
-duplicate values are in the matching fields in y. This will double
-of rows. See dplyr::left_join .
+A wrapper around dplyr's left_join, with an error message if
+duplicate values are present in the matching fields in y.
+This will prevent duplicating rows. See dplyr::left_join .
+}
+\examples{
+  left_df <- data.frame(id = c(1, 2, 3), name = c("Alice", "Bob", "Charlie"))
+  right_df <- data.frame(id = c(1, 2, 4), age = c(20, 25, 30))
+  strict_left_join(left_df, right_df, by = "id")
+
 }
 \seealso{
 \code{\link[dplyr:join]{left_join}}
