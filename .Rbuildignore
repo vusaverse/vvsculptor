@@ -3,3 +3,4 @@
 build_vvsculptor.R
 ^LICENSE\.md$
 install_local_packages.R
+^\.github$

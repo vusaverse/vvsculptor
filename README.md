@@ -1,29 +1,11 @@
-# README #
+# vvsculptor <a href='https://github.com/vusaverse/vvsculptor'><img src="man/figures/hex-vvsculptor.png" style="float:right; height:200px;" height="200" align="right"/></a>
 
-This README would normally document whatever steps are necessary to get your application up and running.
+  <!-- badges: start -->
+[![R-CMD-check](https://github.com/vusaverse/vvsculptor/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/vusaverse/vvsculptor/actions/workflows/R-CMD-check.yaml)
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+[![CodeFactor](https://www.codefactor.io/repository/github/vusaverse/vvsculptor/badge)](https://www.codefactor.io/repository/github/vusaverse/vvsculptor)
+[![CRAN status](https://www.r-pkg.org/badges/version/vvsculptor)](https://CRAN.R-project.org/package=vvsculptor/)
+<a href="https://diffify.com/R/vvsculptor" target="_blank"><img src="https://diffify.com/diffify-badge.svg" alt="The diffify page for the R package vvsculptor" style="width: 100px; max-width: 100%;"></a>
+[![CRAN last month downloads](https://cranlogs.r-pkg.org/badges/last-month/vvsculptor?color=green/)](https://cran.r-project.org/package=vvsculptor/)
+[![CRAN last month downloads](https://cranlogs.r-pkg.org/badges/grand-total/vvsculptor?color=green/)](https://cran.r-project.org/package=vvsculptor/)
+  <!-- badges: end -->
