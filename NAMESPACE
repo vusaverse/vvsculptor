@@ -3,5 +3,6 @@
 export("%>%")
 export(correct_model_levels)
 export(replace_NA_with_y)
+export(sort_columnnames)
 export(strict_left_join)
 importFrom(magrittr,"%>%")
